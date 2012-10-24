@@ -8,9 +8,9 @@ Gem::Specification.new do |gem|
   gem.version       = Votes::VERSION
   gem.authors       = ["Danil Pismenny", "Alexander Logunov"]
   gem.email         = ["danil@orionet.ru", "unlovedru@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = "Simple voting system"
+  gem.summary       = "Simple voting system"
+  gem.homepage      = "https://github.com/BrandyMint/votes"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
